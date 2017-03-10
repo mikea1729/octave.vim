@@ -1,5 +1,34 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=3600
+# Install
 
+## With [Vundle][]:
+
+Add the following to `.vimrc`
+
+    Plugin 'mikea1729/octave.vim'
+
+  [Vundle]: https://github.com/VundleVim/Vundle.vim
+
+## With [pathogen.vim][]:
+
+    cd ~/.vim/bundle
+    git clone git://github.com/mikea1729/octave.vim.git
+
+  [pathogen.vim]: https://github.com/tpope/vim-pathogen
+
+# Pedigree
+
+`syntax/octave.vim` is mirrored from: http://www.vim.org/scripts/script.php?script_id=3600
+
+`indent/octave.vim` from https://github.com/louima/octave.vim--
+
+`plugin/octave.vim` Added to automate installation as described below
+
+
+# Details
+
+Following copied verbatim from http://www.vim.org/scripts/script.php?script_id=3600
+
+```
 description
 This file provides syntax highlighting for the GNU Octave programming language.
 
@@ -59,3 +88,5 @@ if has("autocmd") && exists("+omnifunc")
    \	endif
 endif
 ----- SNIP -----
+```
+
